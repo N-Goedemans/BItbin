@@ -1,0 +1,106 @@
+/* Setting the background color and the font of the body. */
+body {
+    background-color: rgb(239, 239, 239);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* The css for the navbar. */
+.navbar {
+    background-color: rgb(0, 20, 112);
+    height: 41px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-item:hover {
+    background-color: rgb(0, 146, 187);
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* The css for the website. */
+.headText {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.teksten {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+
+.vak1,
+.vak2,
+.vak3 {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px;
+    padding: 10px;
+}
+
+.teksten2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    height: 200px;
+}
+
+/* Making the submit button look better. */
+input[type=submit] {
+    border-radius: 8px;
+    border-color: white;
+    height: 30px;
+    width: 70px;
+    font-size: 13px;
+}
+#button {
+    cursor: pointer;
+    background-color: #57be8e;
+    color: white;
+    position:absolute;
+    top: 800px;
+    right: 1155px;
+
+}
+.CodeMirror {
+    width: 376px;
+    height: auto;
+
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 10px 1.5px #000000;
+    -moz-box-shadow: 2px 2px 10px 1.5px #010101;
+    box-shadow: 2px 2px 10px 1.5px #000000;
+}
+
+.CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
